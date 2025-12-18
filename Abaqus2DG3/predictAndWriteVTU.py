@@ -1,3 +1,17 @@
+# =============================================================================
+# Copyright (c) 2025 Rutwik Gulakala
+# All Rights Reserved.
+#
+# This source code is part of an ongoing research project and is made
+# publicly visible for academic transparency and peer review purposes only.
+#
+# Unauthorized copying, modification, distribution, or use of this code,
+# in whole or in part, is strictly prohibited without prior written
+# permission from the author.
+#
+# This code is provided "AS IS", without warranty of any kind.
+# =============================================================================
+
 # Script to predict from the saved model and write to VTU
 import os
 import re
