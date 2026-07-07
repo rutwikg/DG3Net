@@ -1,14 +1,5 @@
 # DG3Net -  Dynamics-Informed, Geometry-Aware, Gradient-Based Graph Neural Network in Computational Science
 
-The novelties mentioned in the article are organized in each folder.
-
-## License
-This repository is provided for academic transparency and peer review.
-All rights are reserved. See the LICENSE file for details.
-
-
-# DG3Net — Source Code
-
 This directory contains source files of **DG3Net**, a Dynamics-Informed, Geometry-Aware, Gradient-Based Graph Neural Network in Computational Science. The code accompanies the manuscript:
 
 > R. Gulakala, K. S. Pappu, M. Stoffel. *DG3Net — A Dynamics-Informed, Geometry-Aware, Gradient-Based Graph Neural Network in Computational Science.*
