@@ -6,7 +6,7 @@
 
 ## 1. Overview
 
-`.dg3` is an interchange schema for FE-derived graph data intended for machine-learning surrogate modelling. Files with the `.dg3` extension are Torch-serialized binaries carrying a `torch_geometric.data.Data` instance with a **specific, fixed attribute layout** that preserves the FE-specific semantics required for supervised surrogate training: boundary conditions, degree-of-freedom flags, load definitions, contact pairs, and material metadata.
+`.dg3` is an interchange schema for FE-derived graph data intended for machine-learning surrogate modeling. Files with the `.dg3` extension are Torch-serialized binaries carrying a `torch_geometric.data.Data` instance with a **specific, fixed attribute layout** that preserves the FE-specific semantics required for supervised surrogate training: boundary conditions, degree-of-freedom flags, load definitions, contact pairs, and material metadata.
 
 A file that does not conform to the attribute layout of Sections 3–6 is not a valid `.dg3` file, even if it is a Torch-serialized `Data` object. The `.dg3` extension identifies the file as ML-consumable input for graph-based FE surrogates without further schema inspection.
 
