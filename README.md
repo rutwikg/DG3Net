@@ -24,7 +24,7 @@ The files currently released cover the model architecture, evaluation infrastruc
 | `runner.py` | Main training loop for the DG3Net configuration variants. |
 | `train_baselines.py` | Trains the four graph baselines under the DG3Net training protocol. |
 | `compute_baseline_metrics.py` | Evaluates trained baseline checkpoints on the test set. |
-| `kfold_cv.py` | k-fold cross-validation on the V4a (DG3Net) configuration. |
+| `kfold_cv.py` | k-fold cross-validation. |
 
 Also released:
 
